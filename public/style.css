@@ -1,0 +1,36 @@
+*{
+    font: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    margin: 10px 20px;
+}
+
+.row-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+section{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.style{
+    color: Green;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
