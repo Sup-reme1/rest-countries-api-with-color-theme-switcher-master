@@ -6,7 +6,7 @@ export default function CountryCard(props){
         <div>
             <img src={country.flags.png} width='200px' alt="flag" />
             <div>
-                <h2>{country.name}</h2>
+                <h2>{country.name.official}</h2>
                 <p><span>Population: </span>{country.population}</p>
                 <p><span>Region: </span>{country.region}</p>
                 <p><span>Capital: </span>{country.capital}</p>
